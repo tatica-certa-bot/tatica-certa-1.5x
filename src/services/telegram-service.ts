@@ -14,7 +14,7 @@ export class TelegramService {
 
   async sendMessageToTelegramBot(textmessage: string) {
     try {
-      const a = await this.axios.post(`${TELEGRAM_API}/sendMessage`, {
+      await this.axios.post(`${TELEGRAM_API}/sendMessage`, {
         chat_id: process.env.GROUP_CHAT_ID,
         text: textmessage,
         disable_web_page_preview: true
