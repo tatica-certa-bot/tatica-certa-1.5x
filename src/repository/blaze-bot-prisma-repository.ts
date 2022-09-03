@@ -9,7 +9,7 @@ export class BlazeBotRepository implements IInserCrashResult {
   constructor(private readonly prismaClient: PrismaClient) {}
 
   async insertCrashResult(crashResult: ICrashResultDto): Promise<void> {
-    await this.prismaClient.results.create({
+    await this.prismaClient.results_1_5x.create({
       data: { id: new ObjectId().toString(), ...crashResult }
     });
   }
