@@ -23,7 +23,7 @@ export class BotService {
       await this.telegramService.sendMessageToTelegramBot(
         `💵Após o ${crash_point} espere 3 rodadas para começar a apostar,  jogue no maximo 4 rodadas até vir o win!
 -----------------------------------------------
-👀Aposte 1 Gale no máximo 2 GALES
+👀 1 aposta + 3 Gales no MÁXIMO
 -----------------------------------------------
 🤑 Vela de 2.0x
 -----------------------------------------------
