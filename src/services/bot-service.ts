@@ -25,7 +25,7 @@ export class BotService {
 -----------------------------------------------
 👀 1 aposta + 3 Gales no MÁXIMO
 -----------------------------------------------
-🤑 Vela de 2.0x
+🤑 Vela de 1.5x
 -----------------------------------------------
 🎯Link do Game:
 https://blaze.com/pt/games/crash`.trim()
