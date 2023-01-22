@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  tatica_certa_1.5x:
+    container_name: tatica_certa_1.5x
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    command: 'yarn start'
+    env_file:
+      - .env
+    volumes:
+      - './:/app'
