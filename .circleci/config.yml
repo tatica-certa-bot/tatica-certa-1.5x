@@ -28,7 +28,7 @@ jobs:
           name: "build project"
           command: yarn build
       - persist_to_workspace:
-          root: ~/tatica-certa-1.5x
+          root: ~/dist
           paths: .
 
 # Invoke jobs via workflows
